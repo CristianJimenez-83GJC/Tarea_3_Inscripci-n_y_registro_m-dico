@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.o, maximum=scale=1.0, minimun-scale=1.0"
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <title>Formulario Clinica</title>
+    <!-- ESTILOS CSS de Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+<body background="D:\Bootstrap\img\175608-Sepik.jpg"alt="imagen" width="80" height="80"> 
+
+
+<center><ln>DATOS GENERALES DEL PACIENTE</ln>
+<p>FAVOR LLENAR FORMULARIO OBLICATORIO</p>
+<p><h1>CLINICA SOLUCIONES SKYPE</h1></p>
+</center>
+
+<p><form name="formulariaclinica " formularioclinica " method="get">
+Ingrese Nombres: <input type="text" name="nombres" id="nombres"placeholder="Introduce_Nombres">
+
+Nombre Pariente: <input type="text" name="nombres" id="nombres"placeholder="Introduce_Nombres_Pariente_Responsable">
+</p> 
+<p>
+Ingrese Apellidos: <input type="text" name="nombres" id="nombres"placeholder="Introduce_Nombres">
+
+Apellidos Pariente: <input type="text" name="nombres" id="nombres"placeholder="Introduce_Apellidos_Pariente_Responsable">
+</p>
+Fecha de Nacimiento: <input type="date" name="fecha" id=fecha"fecha">
+
+Telefono Emergencia: <input type="number" name="numero" id="numero" min=”0” max=”10” step="5"  placeholder="Telefono_Emergencia_Pariente" title ="Inserte Telefono de Emergencia Del Paciente"></p>
+  <p>Sexo del Paciente:
+
+    <input type="radio" name="hm" value="h"> Hombre
+    <input type="radio" name="hm" value="m"> Mujer
+<p></p>
+Carne de Seguro Social: <input type="text" name="nombres" id="nombres"placeholder=" IGSS SI POSEE"title ="Inserte Codigo de Seguro Social">
+Direccion Paciente: <input type="text" name="nombres" id="nombres"placeholder="Introduce_Direccion"title ="Inserte Direccion Del Paciente">
+
+<pre> <marquee>(Gracias por Completar Todos Los Requicitos Obigatorios ahora vamos a resaltar Otra Valiosa Infomacion) 
+</marquee></pre>
+</p>
+
+
+Fecha de Ingreso a Clinica: <input type="date" name="fecha" id=fecha"fecha" title ="Inserte Fecha de Ingreso Del Paciente">
+Fecha de Alta de Clinica: <input type="date" name="fecha" id=fecha"fecha" title ="Inserte Fecha de Retiro Del Paciente">
+
+<p><p></p>
+Diagnostico Medico: <textarea name="texto" rows="2" cols="80" placeholder="Diagnostico Descriptivo del Paciente"></textarea></p>
+
+
+<p>
+Tratamieneto Recetado por el Medico: <textarea name="texto" rows="2" cols="65" placeholder="Nombre Del Tratamieneto Recetado Por el Medico"></textarea></p>
+<p>
+Observaciones Generales: <textarea name="texto" rows="2" cols="75" placeholder="Descripcion de Todo el Medicamento Recetado y Horario de Ingerirla..."></textarea></p>
+
+
+
+<button type="Enviar_Formulario" onclick="mensaje('Ha Enviado Formulario Exitosamente')">
+  <img src="D:\Bootstrap\img\info.png" alt="imagen" width="32" height="32" style="vertical-align: middle">
+  Enviar_Formulario
+</button>
+
+<script>
+  function mensaje(Enviar_Formulario) {
+    alert(Se_Envia_Formulario);
+  }
+</script>
+
+    <!-- Librería jQuery requerida por los plugins de JavaScript -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+
